@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.header__search {
+  flex-grow: 1;
+  background: var(--main-medium-grey-color);
+  display: flex;
+  padding: 8px 12px;
+
+}
+
+.header__search-input {
+  width: 100%;
+  border:none;
+  margin-left: 8px;
+  font-size: 14px;
+  background: transparent;
+  color: var(--main-light-grey-color);
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  width: 167px;
+  justify-content: space-between;
+}
+
+.header__icon {
+  font-size: 24px;
+}
+
+.header__dropdown {
+  padding: 5px;
+  font-size: 16px;
+}

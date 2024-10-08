@@ -1,0 +1,26 @@
+a{
+  display:'block';
+  text-align:center;
+  flex:1;
+  width: 144px;
+  color:  var(--main-text-white-color);
+  padding: 7px 0px 15px 0px;
+  transition: color .2s ease-out;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.isActive{
+  color: var(--salmon)
+}
+.position-select{
+  display:flex;
+  position:relative
+}
+.underline{
+  position:absolute;
+  height: 1px;
+  bottom:0px;
+  background: var(--salmon);
+  transition: left .2s ease-out;
+
+}

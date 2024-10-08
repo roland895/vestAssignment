@@ -1,0 +1,28 @@
+.wrapper {
+  width: 320px;
+  padding: 8px 16px;
+  background: var(--main-background-grey-color);
+  margin-left: 16px;
+  color: var(--main-text-white-color);
+}
+.row{
+  display: flex;
+}
+.order-type-select{
+  flex: 1;
+  margin-right:16px;
+}
+.sizeSelector{
+  margin: 16px 0px;
+  input{
+    width:100%;
+  }
+}
+label{
+  margin-bottom:8px;
+}
+.col{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}

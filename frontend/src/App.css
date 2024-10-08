@@ -1,0 +1,62 @@
+@property --main-blk-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0F0E0C;
+}
+@property --main-light-grey-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #818181;
+}
+@property --main-medium-grey-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #1A1A1A;
+}
+
+@property --main-text-white-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #F2F1F0;
+}
+@property --please-tell-designer-to-uses-less-white-variants {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #F2F1F0;
+}
+@property --main-background-grey-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #161514;
+}
+@property --salmon{
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #FF5A44;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  background: #0F0E0C;
+}
+.App {
+  text-align: center;
+  max-width: 1264px;
+  margin: 0 auto;
+  //background-color: var(--main-blk-color);
+}
+.
+.main{
+  display:flex;
+  flex-direction: column;
+}
+.two-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price-fund-tab{
+  margin-bottom: 16px;
+}

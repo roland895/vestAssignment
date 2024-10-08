@@ -1,0 +1,6 @@
+.chart-container{
+  flex: 1;
+  background: var(--main-background-grey-color);
+  position: relative;
+}
+.position-select{}

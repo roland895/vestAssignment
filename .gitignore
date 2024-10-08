@@ -1,3 +1,10 @@
+# Ignore the .history folder
+.history/
+
+# Ignore the specific file EmojiPlugin.js
+EmojiPlugin.js
+
+build/
 # Logs
 logs
 *.log
